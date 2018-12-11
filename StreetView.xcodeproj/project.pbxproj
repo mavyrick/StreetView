@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3515095421C00082002E08E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515095321C00082002E08E8 /* AppDelegate.swift */; };
+		3515095621C00082002E08E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515095521C00082002E08E8 /* ViewController.swift */; };
+		3515095921C00082002E08E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515095721C00082002E08E8 /* Main.storyboard */; };
+		3515095C21C00082002E08E8 /* StreetView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3515095A21C00082002E08E8 /* StreetView.xcdatamodeld */; };
+		3515095E21C00085002E08E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3515095D21C00085002E08E8 /* Assets.xcassets */; };
+		3515096121C00085002E08E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515095F21C00085002E08E8 /* LaunchScreen.storyboard */; };
+		3515096C21C00085002E08E8 /* StreetViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515096B21C00085002E08E8 /* StreetViewTests.swift */; };
+		3515097721C00085002E08E8 /* StreetViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515097621C00085002E08E8 /* StreetViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3515096821C00085002E08E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3515094821C00082002E08E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3515094F21C00082002E08E8;
+			remoteInfo = StreetView;
+		};
+		3515097321C00085002E08E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3515094821C00082002E08E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3515094F21C00082002E08E8;
+			remoteInfo = StreetView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3515095021C00082002E08E8 /* StreetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515095321C00082002E08E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3515095521C00082002E08E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3515095821C00082002E08E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3515095B21C00082002E08E8 /* StreetView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StreetView.xcdatamodel; sourceTree = "<group>"; };
+		3515095D21C00085002E08E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3515096021C00085002E08E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3515096221C00085002E08E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3515096721C00085002E08E8 /* StreetViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515096B21C00085002E08E8 /* StreetViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewTests.swift; sourceTree = "<group>"; };
+		3515096D21C00085002E08E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3515097221C00085002E08E8 /* StreetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515097621C00085002E08E8 /* StreetViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewUITests.swift; sourceTree = "<group>"; };
+		3515097821C00085002E08E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3515094D21C00082002E08E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515096421C00085002E08E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515096F21C00085002E08E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3515094721C00082002E08E8 = {
+			isa = PBXGroup;
+			children = (
+				3515095221C00082002E08E8 /* StreetView */,
+				3515096A21C00085002E08E8 /* StreetViewTests */,
+				3515097521C00085002E08E8 /* StreetViewUITests */,
+				3515095121C00082002E08E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3515095121C00082002E08E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3515095021C00082002E08E8 /* StreetView.app */,
+				3515096721C00085002E08E8 /* StreetViewTests.xctest */,
+				3515097221C00085002E08E8 /* StreetViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3515095221C00082002E08E8 /* StreetView */ = {
+			isa = PBXGroup;
+			children = (
+				3515095321C00082002E08E8 /* AppDelegate.swift */,
+				3515095521C00082002E08E8 /* ViewController.swift */,
+				3515095721C00082002E08E8 /* Main.storyboard */,
+				3515095D21C00085002E08E8 /* Assets.xcassets */,
+				3515095F21C00085002E08E8 /* LaunchScreen.storyboard */,
+				3515096221C00085002E08E8 /* Info.plist */,
+				3515095A21C00082002E08E8 /* StreetView.xcdatamodeld */,
+			);
+			path = StreetView;
+			sourceTree = "<group>";
+		};
+		3515096A21C00085002E08E8 /* StreetViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3515096B21C00085002E08E8 /* StreetViewTests.swift */,
+				3515096D21C00085002E08E8 /* Info.plist */,
+			);
+			path = StreetViewTests;
+			sourceTree = "<group>";
+		};
+		3515097521C00085002E08E8 /* StreetViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3515097621C00085002E08E8 /* StreetViewUITests.swift */,
+				3515097821C00085002E08E8 /* Info.plist */,
+			);
+			path = StreetViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3515094F21C00082002E08E8 /* StreetView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515097B21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetView" */;
+			buildPhases = (
+				3515094C21C00082002E08E8 /* Sources */,
+				3515094D21C00082002E08E8 /* Frameworks */,
+				3515094E21C00082002E08E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetView;
+			productName = StreetView;
+			productReference = 3515095021C00082002E08E8 /* StreetView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3515096621C00085002E08E8 /* StreetViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515097E21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewTests" */;
+			buildPhases = (
+				3515096321C00085002E08E8 /* Sources */,
+				3515096421C00085002E08E8 /* Frameworks */,
+				3515096521C00085002E08E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3515096921C00085002E08E8 /* PBXTargetDependency */,
+			);
+			name = StreetViewTests;
+			productName = StreetViewTests;
+			productReference = 3515096721C00085002E08E8 /* StreetViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3515097121C00085002E08E8 /* StreetViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515098121C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewUITests" */;
+			buildPhases = (
+				3515096E21C00085002E08E8 /* Sources */,
+				3515096F21C00085002E08E8 /* Frameworks */,
+				3515097021C00085002E08E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3515097421C00085002E08E8 /* PBXTargetDependency */,
+			);
+			name = StreetViewUITests;
+			productName = StreetViewUITests;
+			productReference = 3515097221C00085002E08E8 /* StreetViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3515094821C00082002E08E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Josh Sorokin";
+				TargetAttributes = {
+					3515094F21C00082002E08E8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3515096621C00085002E08E8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3515094F21C00082002E08E8;
+					};
+					3515097121C00085002E08E8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3515094F21C00082002E08E8;
+					};
+				};
+			};
+			buildConfigurationList = 3515094B21C00082002E08E8 /* Build configuration list for PBXProject "StreetView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3515094721C00082002E08E8;
+			productRefGroup = 3515095121C00082002E08E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3515094F21C00082002E08E8 /* StreetView */,
+				3515096621C00085002E08E8 /* StreetViewTests */,
+				3515097121C00085002E08E8 /* StreetViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3515094E21C00082002E08E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515096121C00085002E08E8 /* LaunchScreen.storyboard in Resources */,
+				3515095E21C00085002E08E8 /* Assets.xcassets in Resources */,
+				3515095921C00082002E08E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515096521C00085002E08E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515097021C00085002E08E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3515094C21C00082002E08E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515095621C00082002E08E8 /* ViewController.swift in Sources */,
+				3515095C21C00082002E08E8 /* StreetView.xcdatamodeld in Sources */,
+				3515095421C00082002E08E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515096321C00085002E08E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515096C21C00085002E08E8 /* StreetViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515096E21C00085002E08E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515097721C00085002E08E8 /* StreetViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3515096921C00085002E08E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3515094F21C00082002E08E8 /* StreetView */;
+			targetProxy = 3515096821C00085002E08E8 /* PBXContainerItemProxy */;
+		};
+		3515097421C00085002E08E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3515094F21C00082002E08E8 /* StreetView */;
+			targetProxy = 3515097321C00085002E08E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3515095721C00082002E08E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3515095821C00082002E08E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3515095F21C00085002E08E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3515096021C00085002E08E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3515097921C00085002E08E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3515097A21C00085002E08E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3515097C21C00085002E08E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3515097D21C00085002E08E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3515097F21C00085002E08E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetView.app/StreetView";
+			};
+			name = Debug;
+		};
+		3515098021C00085002E08E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetView.app/StreetView";
+			};
+			name = Release;
+		};
+		3515098221C00085002E08E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetView;
+			};
+			name = Debug;
+		};
+		3515098321C00085002E08E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34B6F29UT3;
+				INFOPLIST_FILE = StreetViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreetView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3515094B21C00082002E08E8 /* Build configuration list for PBXProject "StreetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515097921C00085002E08E8 /* Debug */,
+				3515097A21C00085002E08E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515097B21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515097C21C00085002E08E8 /* Debug */,
+				3515097D21C00085002E08E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515097E21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515097F21C00085002E08E8 /* Debug */,
+				3515098021C00085002E08E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515098121C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515098221C00085002E08E8 /* Debug */,
+				3515098321C00085002E08E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3515095A21C00082002E08E8 /* StreetView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3515095B21C00082002E08E8 /* StreetView.xcdatamodel */,
+			);
+			currentVersion = 3515095B21C00082002E08E8 /* StreetView.xcdatamodel */;
+			path = StreetView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3515094821C00082002E08E8 /* Project object */;
+}
