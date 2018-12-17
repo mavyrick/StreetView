@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import GoogleMaps
 
-class ViewController: UIViewController {
+//GMSServices.provideAPIKey("AIzaSyDT4Wa81l29wkG2ww9dajjiMLtJkIlLHRE")
 
+//AIzaSyDT4Wa81l29wkG2ww9dajjiMLtJkIlLHRE
+
+class ViewController: UIViewController, GMSMapViewDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let panoView = GMSPanoramaView(frame: .zero)
+        self.view = panoView
+        
+        panoView.move(toPanoramaID: "CAoSLEFGMVFpcE5kcFZnT0NMaW9OZndpRXBRZkdOa0RVaFlmSzZmWUxaRVBFa3Jr")
+        
+//        panoView.moveNearCoordinate(CLLocationCoordinate2D(latitude: 32.064827, longitude: 34.774389))
+        
+//        <iframe src="https://www.google.com/maps/embed?pb=!4v1544540417727!6m8!1m7!1sCAoSLEFGMVFpcE5kcFZnT0NMaW9OZndpRXBRZkdOa0RVaFlmSzZmWUxaRVBFa3Jr!2m2!1d32.06280684264727!2d34.7733187302947!3f169.5!4f0!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
     }
 
     override func didReceiveMemoryWarning() {

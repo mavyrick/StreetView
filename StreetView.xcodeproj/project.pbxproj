@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DB5568AC8E1D6839604A7B /* Pods_StreetViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917E16282BD881C1BE042681 /* Pods_StreetViewUITests.framework */; };
 		3515095421C00082002E08E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515095321C00082002E08E8 /* AppDelegate.swift */; };
 		3515095621C00082002E08E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515095521C00082002E08E8 /* ViewController.swift */; };
 		3515095921C00082002E08E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515095721C00082002E08E8 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		3515096121C00085002E08E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3515095F21C00085002E08E8 /* LaunchScreen.storyboard */; };
 		3515096C21C00085002E08E8 /* StreetViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515096B21C00085002E08E8 /* StreetViewTests.swift */; };
 		3515097721C00085002E08E8 /* StreetViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515097621C00085002E08E8 /* StreetViewUITests.swift */; };
+		41DCA66384A3F5A93934E8C5 /* Pods_StreetView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0568D1F95D934AAA674B96E /* Pods_StreetView.framework */; };
+		94AAD603B0E44013D39014C7 /* Pods_StreetViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A71BE1772AD0DEF76CFC8B5 /* Pods_StreetViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A71BE1772AD0DEF76CFC8B5 /* Pods_StreetViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DD797CEFF2EB475100ED05 /* Pods-StreetViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewUITests/Pods-StreetViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3515095021C00082002E08E8 /* StreetView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3515095321C00082002E08E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3515095521C00082002E08E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		3515097221C00085002E08E8 /* StreetViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3515097621C00085002E08E8 /* StreetViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewUITests.swift; sourceTree = "<group>"; };
 		3515097821C00085002E08E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4B235BC071C1F5DED7BF37 /* Pods-StreetViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewUITests/Pods-StreetViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50C24A96752C2ECEAE7D7884 /* Pods-StreetView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetView/Pods-StreetView.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB1ADE2C8A735D7F708FA90 /* Pods-StreetViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewTests/Pods-StreetViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		917E16282BD881C1BE042681 /* Pods_StreetViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF202663FD6CB709424CE942 /* Pods-StreetViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetViewTests/Pods-StreetViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B240B59C9FC5EEF793F2870F /* Pods-StreetView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetView.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreetView/Pods-StreetView.release.xcconfig"; sourceTree = "<group>"; };
+		D0568D1F95D934AAA674B96E /* Pods_StreetView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DCA66384A3F5A93934E8C5 /* Pods_StreetView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AAD603B0E44013D39014C7 /* Pods_StreetViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DB5568AC8E1D6839604A7B /* Pods_StreetViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3515096A21C00085002E08E8 /* StreetViewTests */,
 				3515097521C00085002E08E8 /* StreetViewUITests */,
 				3515095121C00082002E08E8 /* Products */,
+				A410B47EB344F12EC0343A3E /* Pods */,
+				44BD12F7460A9269CE4EE735 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = StreetViewUITests;
 			sourceTree = "<group>";
 		};
+		44BD12F7460A9269CE4EE735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0568D1F95D934AAA674B96E /* Pods_StreetView.framework */,
+				1A71BE1772AD0DEF76CFC8B5 /* Pods_StreetViewTests.framework */,
+				917E16282BD881C1BE042681 /* Pods_StreetViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A410B47EB344F12EC0343A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C24A96752C2ECEAE7D7884 /* Pods-StreetView.debug.xcconfig */,
+				B240B59C9FC5EEF793F2870F /* Pods-StreetView.release.xcconfig */,
+				6DB1ADE2C8A735D7F708FA90 /* Pods-StreetViewTests.debug.xcconfig */,
+				AF202663FD6CB709424CE942 /* Pods-StreetViewTests.release.xcconfig */,
+				4D4B235BC071C1F5DED7BF37 /* Pods-StreetViewUITests.debug.xcconfig */,
+				21DD797CEFF2EB475100ED05 /* Pods-StreetViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3515097B21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetView" */;
 			buildPhases = (
+				58F0E655DDEFB96B6BC778E5 /* [CP] Check Pods Manifest.lock */,
 				3515094C21C00082002E08E8 /* Sources */,
 				3515094D21C00082002E08E8 /* Frameworks */,
 				3515094E21C00082002E08E8 /* Resources */,
+				AE24DFCBB76234A7CB826DFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3515097E21C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewTests" */;
 			buildPhases = (
+				A64CFB162D018B7848F65633 /* [CP] Check Pods Manifest.lock */,
 				3515096321C00085002E08E8 /* Sources */,
 				3515096421C00085002E08E8 /* Frameworks */,
 				3515096521C00085002E08E8 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3515098121C00085002E08E8 /* Build configuration list for PBXNativeTarget "StreetViewUITests" */;
 			buildPhases = (
+				14DA7418A6A7A667C3DD172E /* [CP] Check Pods Manifest.lock */,
 				3515096E21C00085002E08E8 /* Sources */,
 				3515096F21C00085002E08E8 /* Frameworks */,
 				3515097021C00085002E08E8 /* Resources */,
@@ -253,6 +297,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14DA7418A6A7A667C3DD172E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F0E655DDEFB96B6BC778E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A64CFB162D018B7848F65633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE24DFCBB76234A7CB826DFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreetView/Pods-StreetView-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreetView/Pods-StreetView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3515094C21C00082002E08E8 /* Sources */ = {
@@ -432,15 +553,13 @@
 		};
 		3515097C21C00085002E08E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C24A96752C2ECEAE7D7884 /* Pods-StreetView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,15 +569,13 @@
 		};
 		3515097D21C00085002E08E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B240B59C9FC5EEF793F2870F /* Pods-StreetView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -468,17 +585,14 @@
 		};
 		3515097F21C00085002E08E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB1ADE2C8A735D7F708FA90 /* Pods-StreetViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -489,17 +603,14 @@
 		};
 		3515098021C00085002E08E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF202663FD6CB709424CE942 /* Pods-StreetViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,16 +621,13 @@
 		};
 		3515098221C00085002E08E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4B235BC071C1F5DED7BF37 /* Pods-StreetViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -530,16 +638,13 @@
 		};
 		3515098321C00085002E08E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DD797CEFF2EB475100ED05 /* Pods-StreetViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34B6F29UT3;
 				INFOPLIST_FILE = StreetViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Josh-Sorokin.StreetViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
